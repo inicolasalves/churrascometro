@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Churrascometro</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Churrascômetro</h1>
+        
+        <h4>Bem-vindo ao Churrascômetro!</h4>
+        <p>No Churrascômetro, você pode calcular a quantidade de comida e bebida 
+            necessária para o seu churrasco. Basta preencher o número de adultos e 
+            crianças que estarão presentes, e a duração estimada do evento. 
+            Em seguida, clique em "Calcular" para obter os resultados.</p>
+
+        <div class="caixaTexto">
+            <h3>Adultos</h3>
+            <input id="ad" name="adultos" type="number">
+        </div>
+        <div class="caixaTexto">    
+            <h3>Crianças</h3>
+            <input id="cr" name="criancas" type="number">
+        </div>
+        <div class="caixaTexto">
+            <h3>Duração(h)</h3>
+            <input id="dur" name="duracão" type="number">
+        </div>
+        <button onclick="calcular()">Calcular</button>
+
+        <div id="resultado">
+            
+        </div>
+    </div>
+
+</body>
+</html>
